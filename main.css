@@ -1,0 +1,99 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.clearfix:after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+header{
+	background: transparent;
+	text-align: center;
+}
+
+.hero {
+	
+	background: url("images/city.jpg");
+	height: 900px;
+	background-size: cover;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.subtitle p{
+	
+	text-align: center;
+	padding-top: 20px;
+	font-size: 20px;
+	color: black;
+	font-family: 'Arapey', serif;
+
+}
+
+.row{
+	padding-left: 5px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 300px;
+
+}	
+
+.logo{
+	text-align: center;
+	font-size: 80px;
+	font-family: 'Bad Script', cursive;
+	color: pink;
+}
+
+.col-md-4{
+	background-color: rgba(0,0,0,.5);
+	font-family: 'Arapey', serif;
+    width: 200px;
+    padding: 25px;
+    border: 2px solid white;
+    margin: 10px;
+    padding-left: 20px;
+    margin-left: 430px;
+}
+
+.col-md-4 p{
+	font-size: 20px;
+	font color: white;
+	font-family: 'Arapey', serif;
+	color: white;
+
+}
+
+.tools {
+	padding-left: 40px;
+    padding-bottom: 20px;
+	background: white;
+	border-style: line;
+	margin-left: 20px; 
+	margin-right:10px;
+}
+
+.tools p {
+	font-family: 'Arapey', serif;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 10px;
+}
+
+.tools a{
+	padding-left: 150px;
+}
+
+.toolstwo p {
+font-family: 'Arapey', serif;
+font-size: 20px;
+padding-left: 20px;
+}
